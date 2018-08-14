@@ -8,11 +8,6 @@ function moveDodgerRight() {
   }
 }
 
-function getRight() {
-    var rightNumbers = dodger.style.right.replace('px', '')
-
-}
-
 document.addEventListener('keydown', function(e) {
   if (e.which === 39) {
     moveDodgerRight();
